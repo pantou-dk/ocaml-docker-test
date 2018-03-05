@@ -1,4 +1,0 @@
-lib: [
-  "_build/install/default/lib/test/META" {"META"}
-  "_build/install/default/lib/test/opam" {"opam"}
-]
