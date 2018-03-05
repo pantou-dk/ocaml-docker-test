@@ -1,0 +1,6 @@
+(jbuild_version 1)
+
+(executable
+  ((name test)
+   (preprocess (pps (ppx_jane)))
+   (libraries (core lwt lwt.unix cohttp cohttp-lwt-unix))))

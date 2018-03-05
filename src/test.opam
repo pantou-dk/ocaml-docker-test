@@ -1,0 +1,8 @@
+opam-version: "1.2"
+homepage: "N/A"
+name: "test"
+version: "0.1"
+maintainer: "Name <martin@itsolveonline.net>"
+author: "Name <Martin Grunbaum>"
+build: [["jbuilder" "build" "-p" name "-j" jobs]]
+depends: "jbuilder"
